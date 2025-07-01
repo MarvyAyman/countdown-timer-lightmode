@@ -21,9 +21,9 @@
     .countdown-container {
       background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
       border-radius: 16px;
-      padding: 40px 60px;
+      padding: 35px 55px;
       box-shadow: 
-        0 10px 40px rgba(0, 0, 0, 0.08),
+        0 12px 40px rgba(0, 0, 0, 0.08),
         0 4px 16px rgba(0, 0, 0, 0.04),
         inset 0 1px 0 rgba(255, 255, 255, 0.8);
       border: 1px solid #e9ecef;
@@ -47,16 +47,16 @@
     }
     
     .time-value {
-      font-size: 100px;
-      font-weight: 800;
+      font-size: 84px;
+      font-weight: 700;
       color: #1a1a1a;
       text-shadow: 
-        0 2px 8px rgba(0, 0, 0, 0.1),
-        0 1px 3px rgba(0, 0, 0, 0.2);
-      letter-spacing: -2px;
-      min-width: 200px;
+        0 2px 8px rgba(0, 0, 0, 0.08),
+        0 1px 4px rgba(0, 0, 0, 0.04);
+      letter-spacing: 2px;
+      min-width: 140px;
       text-align: center;
-      background: linear-gradient(135deg, #1a1a1a 0%, #495057 100%);
+      background: linear-gradient(180deg, #1a1a1a 0%, #4a4a4a 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -68,18 +68,21 @@
       text-transform: uppercase;
       font-weight: 600;
       letter-spacing: 2px;
+      font-family: 'Arial', sans-serif;
+      margin-top: 4px;
     }
     
     .separator {
-      font-size: 80px;
+      font-size: 56px;
       color: #6c757d;
       margin: 0 15px;
       animation: blink 2s infinite;
+      font-weight: 600;
     }
     
     @keyframes blink {
       0%, 50% { opacity: 1; }
-      51%, 100% { opacity: 0.3; }
+      51%, 100% { opacity: 0.4; }
     }
     
     .footer-info {
@@ -99,8 +102,8 @@
       }
       
       .time-value {
-        font-size: 100px;
-        min-width: 130px;
+        font-size: 48px;
+        min-width: 80px;
       }
       
       .time-display {
@@ -108,12 +111,12 @@
       }
       
       .separator {
-        font-size: 50px;
-        margin: 0 8px;
+        font-size: 32px;
+        margin: 0 5px;
       }
       
       .time-label {
-        font-size: 14px;
+        font-size: 16px;
       }
     }
     
@@ -123,8 +126,8 @@
       }
       
       .time-value {
-        font-size: 70px;
-        min-width: 90px;
+        font-size: 36px;
+        min-width: 60px;
       }
       
       .time-display {
@@ -132,12 +135,12 @@
       }
       
       .separator {
-        font-size: 35px;
-        margin: 0 5px;
+        font-size: 24px;
+        margin: 0 3px;
       }
       
       .time-label {
-        font-size: 12px;
+        font-size: 14px;
       }
     }
   </style>
